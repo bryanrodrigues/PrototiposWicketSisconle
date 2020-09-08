@@ -12,7 +12,7 @@ public class HomePage extends WebPage {
 	public HomePage() {
 		Form form = new Form("form"){
 			@Override
-			protected void onSubmit() {
+			protected void onSubmit() { 
 					setResponsePage(SecondPage.class);
 			}
 		};
